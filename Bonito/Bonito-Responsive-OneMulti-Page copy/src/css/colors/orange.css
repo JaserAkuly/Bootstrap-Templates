@@ -1,0 +1,163 @@
+body #navbar {
+  background-color: #d35400;
+  border-bottom-color: #ba4a00;
+}
+body #navbar .navbar .flexnav li a {
+  background-color: #d35400;
+}
+body #navbar .navbar .flexnav li a:hover {
+  background-color: #ec5e00;
+}
+body #navbar .navbar .flexnav li ul li {
+  border-bottom: 1px solid #ba4a00;
+}
+body.single #main .sidebar .widgets .widget.recent-posts ul li a:hover,
+body.home #main .sidebar .widgets .widget.recent-posts ul li a:hover,
+body.single #main .sidebar .widgets .widget.archives ul li a:hover,
+body.home #main .sidebar .widgets .widget.archives ul li a:hover {
+  background-color: #d35400;
+}
+body.single #main .sidebar .widgets .widget.flickr .flickr-feeds li:hover,
+body.home #main .sidebar .widgets .widget.flickr .flickr-feeds li:hover {
+  background-color: #d35400;
+}
+body .btn {
+  background-color: #d35400;
+  border-color: #ba4a00;
+}
+body .btn.btn-primary {
+  background-color: #d35400;
+  box-shadow: 0 2px #ba4a00;
+  border-color: #ba4a00;
+}
+body .btn.btn-primary:hover {
+  background-color: #ba4a00;
+}
+body .bt-btn {
+  background-color: #d35400;
+}
+body footer.site-footer {
+  background-color: #d35400;
+}
+body .panel-group .panel .panel-heading .accordion-toggle {
+  background-color: #d35400;
+}
+body .tab-wrapper .nav-tabs li a {
+  background: #d35400;
+}
+body .tab-wrapper .nav-tabs li a:hover {
+  border-color: #ba4a00;
+  background-color: #ba4a00;
+}
+body .tab-wrapper .nav-tabs li.active {
+  border: none;
+}
+body .tab-wrapper .nav-tabs li.active a {
+  background: white;
+  color: #333;
+}
+body .tab-wrapper .nav-tabs li.active a:hover {
+  border-bottom: 1px solid white;
+}
+body .tab-wrapper.tab-horizontal .nav-tabs li a {
+  border-right: 1px solid #ba4a00;
+}
+body .company-box {
+  background-color: #d35400;
+}
+body .teams .filters .styled-list li a {
+  background-color: #d35400;
+}
+body .teams .filters .styled-list li a:hover,
+body .teams .filters .styled-list li a.selected {
+  background-color: #ba4a00;
+}
+body .teams .members .member .member-links {
+  background-color: #d35400;
+}
+body .works #works-filter .filters li a {
+  background-color: #d35400;
+}
+body .works #works-filter .filters li a:hover,
+body .works #works-filter .filters li a.selected {
+  background-color: #ba4a00;
+}
+body #contact .contact-form {
+  background-color: rgba(211, 84, 0, 0.7);
+}
+body .isotope-filter-wrapper .filters li a {
+  background-color: #d35400;
+}
+body .isotope-filter-wrapper .filters li a.selected {
+  background-color: #ba4a00;
+}
+body .isotope-filter-wrapper .filters li a:hover {
+  background-color: #ba4a00;
+}
+body .share-post .share {
+  background-color: #d35400;
+}
+body .share-post .buttons {
+  background-color: #d35400;
+  border-color: #ba4a00;
+}
+body .navbar-header {
+  background-color: #d35400;
+  border-bottom-color: #ba4a00;
+}
+body #navigation li a,
+body #navigation li a.fc-active {
+  background-color: #d35400;
+}
+body #navigation li.current a {
+  background-color: #ba4a00;
+}
+body #navigation li a:hover {
+  background-color: #ba4a00;
+}
+body #navigation > ul li ul a {
+  background: #e25a00;
+}
+body .navbar-header .menu-button:hover,
+body .navbar-header:active:hover,
+body .navbar-header .menu-button.active,
+body .navbar-header:active.active {
+  border-color: white;
+}
+body header {
+  background-color: #d35400;
+  border-bottom-color: #ba4a00;
+}
+body #navigation ul li {
+  border-bottom-color: #a04000;
+}
+body .input-group .input-group-btn .btn:hover {
+  background-color: #a04000;
+}
+body .md-overlay {
+  background-color: rgba(211, 84, 0, 0.9);
+}
+body .md-modal .md-content h3 {
+  background-color: #D35400;
+}
+body .md-modal .md-content {
+  background-color: #E67E22;
+}
+body .md-modal .md-content .nav-links ul li a {
+  color: #ffba7d;
+}
+html.no-touch .services .service-box:hover {
+  background-color: #d35400;
+}
+html.no-touch .widgets .widget.flickr .flickr-feeds li:hover {
+  background-color: #d35400 !important;
+}
+html.no-touch .sidebar .widgets .widget ul li a:hover {
+  background-color: #d35400;
+}
+html.no-touch .services .service-box:hover {
+  background: #d35400;
+}
+html.no-touch .features .feature-box:hover {
+  background: #d35400;
+}

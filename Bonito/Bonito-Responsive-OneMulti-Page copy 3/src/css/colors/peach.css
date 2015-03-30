@@ -1,0 +1,163 @@
+body #navbar {
+  background-color: #f39c12;
+  border-bottom-color: #e08e0b;
+}
+body #navbar .navbar .flexnav li a {
+  background-color: #f39c12;
+}
+body #navbar .navbar .flexnav li a:hover {
+  background-color: #f4a62a;
+}
+body #navbar .navbar .flexnav li ul li {
+  border-bottom: 1px solid #e08e0b;
+}
+body.single #main .sidebar .widgets .widget.recent-posts ul li a:hover,
+body.home #main .sidebar .widgets .widget.recent-posts ul li a:hover,
+body.single #main .sidebar .widgets .widget.archives ul li a:hover,
+body.home #main .sidebar .widgets .widget.archives ul li a:hover {
+  background-color: #f39c12;
+}
+body.single #main .sidebar .widgets .widget.flickr .flickr-feeds li:hover,
+body.home #main .sidebar .widgets .widget.flickr .flickr-feeds li:hover {
+  background-color: #f39c12;
+}
+body .btn {
+  background-color: #f39c12;
+  border-color: #e08e0b;
+}
+body .btn.btn-primary {
+  background-color: #f39c12;
+  box-shadow: 0 2px #e08e0b;
+  border-color: #e08e0b;
+}
+body .btn.btn-primary:hover {
+  background-color: #e08e0b;
+}
+body .bt-btn {
+  background-color: #f39c12;
+}
+body footer.site-footer {
+  background-color: #f39c12;
+}
+body .panel-group .panel .panel-heading .accordion-toggle {
+  background-color: #f39c12;
+}
+body .tab-wrapper .nav-tabs li a {
+  background: #f39c12;
+}
+body .tab-wrapper .nav-tabs li a:hover {
+  border-color: #e08e0b;
+  background-color: #e08e0b;
+}
+body .tab-wrapper .nav-tabs li.active {
+  border: none;
+}
+body .tab-wrapper .nav-tabs li.active a {
+  background: white;
+  color: #333;
+}
+body .tab-wrapper .nav-tabs li.active a:hover {
+  border-bottom: 1px solid white;
+}
+body .tab-wrapper.tab-horizontal .nav-tabs li a {
+  border-right: 1px solid #e08e0b;
+}
+body .company-box {
+  background-color: #f39c12;
+}
+body .teams .filters .styled-list li a {
+  background-color: #f39c12;
+}
+body .teams .filters .styled-list li a:hover,
+body .teams .filters .styled-list li a.selected {
+  background-color: #e08e0b;
+}
+body .teams .members .member .member-links {
+  background-color: #f39c12;
+}
+body .works #works-filter .filters li a {
+  background-color: #f39c12;
+}
+body .works #works-filter .filters li a:hover,
+body .works #works-filter .filters li a.selected {
+  background-color: #e08e0b;
+}
+body #contact .contact-form {
+  background-color: rgba(243, 156, 18, 0.7);
+}
+body .isotope-filter-wrapper .filters li a {
+  background-color: #f39c12;
+}
+body .isotope-filter-wrapper .filters li a.selected {
+  background-color: #e08e0b;
+}
+body .isotope-filter-wrapper .filters li a:hover {
+  background-color: #e08e0b;
+}
+body .share-post .share {
+  background-color: #f39c12;
+}
+body .share-post .buttons {
+  background-color: #f39c12;
+  border-color: #e08e0b;
+}
+body .navbar-header {
+  background-color: #f39c12;
+  border-bottom-color: #e08e0b;
+}
+body #navigation li a,
+body #navigation li a.fc-active {
+  background-color: #f39c12;
+}
+body #navigation li.current a {
+  background-color: #e08e0b;
+}
+body #navigation li a:hover {
+  background-color: #e08e0b;
+}
+body #navigation > ul li ul a {
+  background: #f4a221;
+}
+body .navbar-header .menu-button:hover,
+body .navbar-header:active:hover,
+body .navbar-header .menu-button.active,
+body .navbar-header:active.active {
+  border-color: white;
+}
+body header {
+  background-color: #f39c12;
+  border-bottom-color: #e08e0b;
+}
+body #navigation ul li {
+  border-bottom-color: #c87f0a;
+}
+body .input-group .input-group-btn .btn:hover {
+  background-color: #c87f0a;
+}
+body .md-overlay {
+  background-color: rgba(243, 156, 18, 0.9);
+}
+body .md-modal .md-content h3 {
+  background-color: #F39C11;
+}
+body .md-modal .md-content {
+  background-color: #F1C40D;
+}
+body .md-modal .md-content .nav-links ul li a {
+  color: #FADF71;
+}
+html.no-touch .services .service-box:hover {
+  background-color: #f39c12;
+}
+html.no-touch .widgets .widget.flickr .flickr-feeds li:hover {
+  background-color: #f39c12 !important;
+}
+html.no-touch .sidebar .widgets .widget ul li a:hover {
+  background-color: #f39c12;
+}
+html.no-touch .services .service-box:hover {
+  background: #f39c12;
+}
+html.no-touch .features .feature-box:hover {
+  background: #f39c12;
+}

@@ -1,0 +1,246 @@
+@themeColor: #f39c12;
+
+@rgbRed: 243;
+@rgbGreen: 156;
+@rgbBlue: 18;
+
+body {
+	#navbar {
+		background-color: @themeColor;
+		border-bottom-color: darken(@themeColor, 5%);
+		.navbar {
+			.flexnav {
+				li {
+					a {
+						background-color: @themeColor;
+						&:hover {
+							background-color: lighten(@themeColor, 5%)
+						}
+					}
+					ul {
+						li {
+							border-bottom: 1px solid darken(@themeColor, 5%);
+						}
+					}
+				}
+			}
+		}
+	}
+	&.single, &.home {
+		#main {
+			.sidebar {
+				.widgets {
+					.widget {				
+						&.recent-posts, &.archives {
+							ul {
+								li {
+									a {
+										&:hover {
+											background-color: @themeColor;
+										}
+									}
+								}
+							}
+						}
+						&.flickr {
+							.flickr-feeds {
+								li {
+									&:hover {
+										background-color: @themeColor;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	// ELEMENTS 
+	// --------------------------
+	.btn {
+		background-color: @themeColor;
+		border-color: darken(@themeColor, 5%);
+		&.btn-primary {
+			background-color: @themeColor;
+			box-shadow: 0 2px darken(@themeColor, 5%);
+			border-color: darken(@themeColor, 5%);
+			&:hover {
+				background-color: darken(@themeColor, 5%);
+			}
+		}
+	}
+	.bt-btn {
+		background-color: @themeColor;
+	}
+	footer {
+		&.site-footer {
+			background-color: @themeColor;
+		}
+	}
+	.panel-group {
+		.panel {
+			.panel-heading {
+				.accordion-toggle {
+					background-color: @themeColor;
+				}
+			}
+		}
+	}
+	.tab-wrapper {
+		.nav-tabs {
+			li {
+				a {
+					background: @themeColor;
+					&:hover {
+						border-color: darken(@themeColor, 5%);
+						background-color: darken(@themeColor, 5%)
+					}
+				}
+				&.active {
+					border: none;
+					a {
+						background: white;
+						color: #333;
+						&:hover {
+							border-bottom: 1px solid white;
+						}
+					}
+				}
+			}
+		}
+		&.tab-horizontal {
+			.nav-tabs {
+				li {
+					a {
+						border-right: 1px solid darken(@themeColor, 5%);
+					}
+				}
+			}
+		}
+	}
+	.company-box {
+		background-color: @themeColor;
+		.details {
+		}
+	}
+	.teams {
+		.filters {
+			.styled-list {
+				li {
+					a {
+						background-color: @themeColor;
+						&:hover, &.selected {
+							background-color: darken(@themeColor, 5%);
+						}
+					}
+				}
+			}
+		}
+		.members {
+			.member {
+				.member-links {
+					background-color: @themeColor;
+				}
+			}
+		}
+	}
+	.works {
+		#works-filter {
+			.filters {
+				li {
+					a {
+						background-color: @themeColor;
+						&:hover, &.selected {
+							background-color: darken(@themeColor, 5%);
+						}
+					}
+				}
+			}
+		}
+	}
+	#contact {
+		.contact-form {
+			background-color: rgba(@rgbRed, @rgbGreen, @rgbBlue, 0.7);
+		}
+	}
+	.isotope-filter-wrapper .filters li a {
+		background-color: @themeColor;
+		&.selected {
+			background-color: darken(@themeColor, 5%);
+		}
+		&:hover {
+			background-color: darken(@themeColor, 5%);
+		}
+	}
+	.share-post .share {
+		background-color: @themeColor;
+	}
+	.share-post .buttons {
+		background-color: @themeColor;
+		border-color: darken(@themeColor, 5%);
+	}
+	.navbar-header {
+		background-color: @themeColor;
+		border-bottom-color: darken(@themeColor, 5%);
+	}
+	#navigation li a, #navigation li a.fc-active {
+		background-color: @themeColor;
+	}
+	#navigation li.current a {
+		background-color: darken(@themeColor, 5%);
+	}
+	#navigation li a:hover {
+		background-color: darken(@themeColor, 5%);
+	}
+	#navigation > ul li ul a {
+		background: lighten(@themeColor, 3%);
+	}
+	.navbar-header .menu-button:hover,
+	.navbar-header:active:hover,
+	.navbar-header .menu-button.active,
+	.navbar-header:active.active {
+	  	border-color: white;
+	}
+	header {
+		background-color: @themeColor;
+		border-bottom-color: darken(@themeColor, 5%);
+	}
+	#navigation ul li {
+		border-bottom-color: darken(@themeColor, 10%);
+	}
+	.input-group .input-group-btn .btn:hover {
+		background-color: darken(@themeColor, 10%);
+	}
+	.md-overlay {
+		background-color: rgba(@rgbRed, @rgbGreen, @rgbBlue, 0.9);
+	}
+	.md-modal .md-content h3 {
+		background-color: #F39C11;
+	}
+	.md-modal .md-content {
+		background-color: #F1C40D;
+	}
+	.md-modal .md-content .nav-links ul li a {
+		color: #FADF71;
+	}
+}
+html {
+	&.no-touch {
+		.services .service-box:hover {
+			background-color: @themeColor;
+		}
+		.widgets .widget.flickr .flickr-feeds li:hover {
+			background-color: @themeColor !important;
+		}
+		.sidebar .widgets .widget ul li a:hover {
+			background-color: @themeColor;
+		}
+		.services .service-box:hover {
+			background: @themeColor;
+		}
+		.features .feature-box:hover {
+			background: @themeColor;
+		}
+	}
+}
